@@ -2,8 +2,8 @@
 
 @{
     ViewData["Title"] = "Blob Storage";
-    var errorMessage = TempData[AspNetMVCWithAzure.Controllers.BlobStorageController.ErrorMessageKey] as string;
-    var successMessage = TempData[AspNetMVCWithAzure.Controllers.BlobStorageController.SuccessMessageKey] as string;
+    var errorMessage = TempData[DotNetCoreSqlDb.Controllers.BlobStorageController.ErrorMessageKey] as string;
+    var successMessage = TempData[DotNetCoreSqlDb.Controllers.BlobStorageController.SuccessMessageKey] as string;
 }
 
 @if (!string.IsNullOrEmpty(errorMessage))
